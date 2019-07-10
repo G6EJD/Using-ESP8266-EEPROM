@@ -1,3 +1,5 @@
+// NOTE: for the ESP32 you can use: long val = EEPROM.readULong(address);
+
 #include <EEPROM.h>
 
 const int EEaddress = 0;
