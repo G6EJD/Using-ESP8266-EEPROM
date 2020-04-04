@@ -124,7 +124,6 @@ void loop() {
   // Reading
   EEaddress += EEPROM.get(EEaddress, floatingpoint_variable);
   EEaddress += EEPROM.get(EEaddress, integer_variable);
-  EEPROM.commit();
   Serial.println(floatingpoint_variable,7);
   Serial.println(integer_variable);
 
